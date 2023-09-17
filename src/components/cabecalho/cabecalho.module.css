@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: black;
+}
+
+.ul{
+      display: flex;
+}
+
+.ul li{
+    list-style: none;
+    margin-left: 10px;
+}
