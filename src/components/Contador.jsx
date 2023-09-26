@@ -5,6 +5,7 @@ export function Counter(){
 
    useEffect(() => {
     alert('Componente montado...')
+    alert('count: ', count)
 
     return () => {
         alert("Componente desmontado...")    

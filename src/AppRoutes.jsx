@@ -20,7 +20,7 @@ export function AppRouter(){
      <Routes>
       
       <Route path="/" element={<Inicio />}>
-       <Route path="/exer1" element={<Info age="18" name="Luiz" />} />
+        <Route path="/exer1" element={<Info age="18" name="Luiz" />} />
         <Route path="/exer2" element={<Counter />} />
         <Route path="/exer3" element={<RenderCondicional />} />
         <Route path="/exer4" element={<TodoList />} />

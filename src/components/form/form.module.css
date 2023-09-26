@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup input{
+    width: 250px;
+    margin-top: 5px;
+}
+
+.error{
+    color: red;
+}
